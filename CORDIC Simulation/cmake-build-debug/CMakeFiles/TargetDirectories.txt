@@ -1,3 +1,0 @@
-D:/education/Term/FPGA/CORDIC Simulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/education/Term/FPGA/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir
-D:/education/Term/FPGA/CORDIC Simulation/cmake-build-debug/CMakeFiles/edit_cache.dir
