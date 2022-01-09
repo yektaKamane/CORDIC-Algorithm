@@ -1,14 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "OS.h"
-#include "CordicMachine.h"
+#include "Os/OS.h"
+#include "CordicMachine/CordicMachine.h"
 
 int main() {
 
     std::vector<std::string> processData;
     std::string special_data;
-    std::ifstream inputFile("../process_inputs.csv");
+    std::ifstream inputFile("../Test/process_inputs.csv");
 
     OS system;
     system.Read_Record_From_CSV(inputFile,processData);

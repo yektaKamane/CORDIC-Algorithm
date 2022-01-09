@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.cpp" "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/CordicMachine.cpp.obj"
-  "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/OS.cpp" "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/OS.cpp.obj"
+  "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine/CordicMachine.cpp" "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/CordicMachine/CordicMachine.cpp.obj"
+  "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/Os/OS.cpp" "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/Os/OS.cpp.obj"
   "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/main.cpp" "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

@@ -6,13 +6,31 @@
 
 #IncludeRegexTransform: 
 
-D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.cpp
-CordicMachine.h
-D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.h
-
-D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.h
+D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine/CordicMachine.h
 iostream
 -
 cstdlib
 -
+
+D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/Os/OS.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+
+D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/main.cpp
+iostream
+-
+vector
+-
+string
+-
+Os/OS.h
+D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/Os/OS.h
+CordicMachine/CordicMachine.h
+D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine/CordicMachine.h
 

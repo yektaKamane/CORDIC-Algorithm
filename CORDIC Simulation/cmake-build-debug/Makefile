@@ -126,59 +126,59 @@ CORDIC_Simulation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\build
 .PHONY : CORDIC_Simulation\fast
 
-CordicMachine.obj: CordicMachine.cpp.obj
+CordicMachine\CordicMachine.obj: CordicMachine\CordicMachine.cpp.obj
 
-.PHONY : CordicMachine.obj
-
-# target to build an object file
-CordicMachine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.obj
-.PHONY : CordicMachine.cpp.obj
-
-CordicMachine.i: CordicMachine.cpp.i
-
-.PHONY : CordicMachine.i
-
-# target to preprocess a source file
-CordicMachine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.i
-.PHONY : CordicMachine.cpp.i
-
-CordicMachine.s: CordicMachine.cpp.s
-
-.PHONY : CordicMachine.s
-
-# target to generate assembly for a file
-CordicMachine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.s
-.PHONY : CordicMachine.cpp.s
-
-OS.obj: OS.cpp.obj
-
-.PHONY : OS.obj
+.PHONY : CordicMachine\CordicMachine.obj
 
 # target to build an object file
-OS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.obj
-.PHONY : OS.cpp.obj
+CordicMachine\CordicMachine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine\CordicMachine.cpp.obj
+.PHONY : CordicMachine\CordicMachine.cpp.obj
 
-OS.i: OS.cpp.i
+CordicMachine\CordicMachine.i: CordicMachine\CordicMachine.cpp.i
 
-.PHONY : OS.i
+.PHONY : CordicMachine\CordicMachine.i
 
 # target to preprocess a source file
-OS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.i
-.PHONY : OS.cpp.i
+CordicMachine\CordicMachine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine\CordicMachine.cpp.i
+.PHONY : CordicMachine\CordicMachine.cpp.i
 
-OS.s: OS.cpp.s
+CordicMachine\CordicMachine.s: CordicMachine\CordicMachine.cpp.s
 
-.PHONY : OS.s
+.PHONY : CordicMachine\CordicMachine.s
 
 # target to generate assembly for a file
-OS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.s
-.PHONY : OS.cpp.s
+CordicMachine\CordicMachine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine\CordicMachine.cpp.s
+.PHONY : CordicMachine\CordicMachine.cpp.s
+
+Os\OS.obj: Os\OS.cpp.obj
+
+.PHONY : Os\OS.obj
+
+# target to build an object file
+Os\OS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\Os\OS.cpp.obj
+.PHONY : Os\OS.cpp.obj
+
+Os\OS.i: Os\OS.cpp.i
+
+.PHONY : Os\OS.i
+
+# target to preprocess a source file
+Os\OS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\Os\OS.cpp.i
+.PHONY : Os\OS.cpp.i
+
+Os\OS.s: Os\OS.cpp.s
+
+.PHONY : Os\OS.s
+
+# target to generate assembly for a file
+Os\OS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\Os\OS.cpp.s
+.PHONY : Os\OS.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -216,12 +216,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CORDIC_Simulation
-	@echo ... CordicMachine.obj
-	@echo ... CordicMachine.i
-	@echo ... CordicMachine.s
-	@echo ... OS.obj
-	@echo ... OS.i
-	@echo ... OS.s
+	@echo ... CordicMachine/CordicMachine.obj
+	@echo ... CordicMachine/CordicMachine.i
+	@echo ... CordicMachine/CordicMachine.s
+	@echo ... Os/OS.obj
+	@echo ... Os/OS.i
+	@echo ... Os/OS.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

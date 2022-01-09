@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.cpp">
+		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine/CordicMachine.cpp">
 			<Option target="CORDIC_Simulation"/>
 		</Unit>
-		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine.h">
+		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/CordicMachine/CordicMachine.h">
 			<Option target="CORDIC_Simulation"/>
 		</Unit>
-		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/OS.cpp">
+		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/Os/OS.cpp">
 			<Option target="CORDIC_Simulation"/>
 		</Unit>
-		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/OS.h">
+		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/Os/OS.h">
 			<Option target="CORDIC_Simulation"/>
 		</Unit>
 		<Unit filename="D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/main.cpp">

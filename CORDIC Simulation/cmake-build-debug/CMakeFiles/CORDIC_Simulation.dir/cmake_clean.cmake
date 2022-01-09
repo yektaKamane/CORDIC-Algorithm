@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CORDIC_Simulation.dir/CordicMachine.cpp.obj"
-  "CMakeFiles/CORDIC_Simulation.dir/OS.cpp.obj"
+  "CMakeFiles/CORDIC_Simulation.dir/CordicMachine/CordicMachine.cpp.obj"
+  "CMakeFiles/CORDIC_Simulation.dir/Os/OS.cpp.obj"
   "CMakeFiles/CORDIC_Simulation.dir/main.cpp.obj"
   "CORDIC_Simulation.exe"
   "CORDIC_Simulation.exe.manifest"
