@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC Simulation/cmake-build-debug/CMakeFiles/CORDIC_Simulation.dir/embed.manifest"

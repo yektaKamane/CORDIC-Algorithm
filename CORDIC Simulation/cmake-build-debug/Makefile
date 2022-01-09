@@ -51,10 +51,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\education\Term\FPGA\CORDIC Simulation"
+CMAKE_SOURCE_DIR = "D:\GitHub\FPGA-Project-CORDIC-Algorithm\CORDIC Simulation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\education\Term\FPGA\CORDIC Simulation\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\GitHub\FPGA-Project-CORDIC-Algorithm\CORDIC Simulation\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ edit_cache\fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\education\Term\FPGA\CORDIC Simulation\cmake-build-debug\CMakeFiles" "D:\education\Term\FPGA\CORDIC Simulation\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\GitHub\FPGA-Project-CORDIC-Algorithm\CORDIC Simulation\cmake-build-debug\CMakeFiles" "D:\GitHub\FPGA-Project-CORDIC-Algorithm\CORDIC Simulation\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\education\Term\FPGA\CORDIC Simulation\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\GitHub\FPGA-Project-CORDIC-Algorithm\CORDIC Simulation\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -126,6 +126,60 @@ CORDIC_Simulation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\build
 .PHONY : CORDIC_Simulation\fast
 
+CordicMachine.obj: CordicMachine.cpp.obj
+
+.PHONY : CordicMachine.obj
+
+# target to build an object file
+CordicMachine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.obj
+.PHONY : CordicMachine.cpp.obj
+
+CordicMachine.i: CordicMachine.cpp.i
+
+.PHONY : CordicMachine.i
+
+# target to preprocess a source file
+CordicMachine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.i
+.PHONY : CordicMachine.cpp.i
+
+CordicMachine.s: CordicMachine.cpp.s
+
+.PHONY : CordicMachine.s
+
+# target to generate assembly for a file
+CordicMachine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\CordicMachine.cpp.s
+.PHONY : CordicMachine.cpp.s
+
+OS.obj: OS.cpp.obj
+
+.PHONY : OS.obj
+
+# target to build an object file
+OS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.obj
+.PHONY : OS.cpp.obj
+
+OS.i: OS.cpp.i
+
+.PHONY : OS.i
+
+# target to preprocess a source file
+OS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.i
+.PHONY : OS.cpp.i
+
+OS.s: OS.cpp.s
+
+.PHONY : OS.s
+
+# target to generate assembly for a file
+OS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CORDIC_Simulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CORDIC_Simulation.dir\OS.cpp.s
+.PHONY : OS.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -162,6 +216,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CORDIC_Simulation
+	@echo ... CordicMachine.obj
+	@echo ... CordicMachine.i
+	@echo ... CordicMachine.s
+	@echo ... OS.obj
+	@echo ... OS.i
+	@echo ... OS.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
