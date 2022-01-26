@@ -18,17 +18,19 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Single_Stage_Cordic( X_in, Y_in, Z_in,iteration_number, X_out, Y_out, Z_out);
+module Single_Stage_Cordic( clk, X_in, Y_in, Z_in,iteration_number, X_out, Y_out, Z_out);
 
-	parameter width = 24;
+	parameter width = 32;
+	
+	input clk;
 	input [width-1:0] X_in;
 	input [width-1:0] Y_in;
 	input [width-1:0] Z_in;
 	input [4:0] iteration_number;
 	
-	output [width-1:0] X_out;
-	output [width-1:0] Y_out;
-	output [width-1:0] Z_out;
+	output reg [width-1:0] X_out;
+	output reg [width-1:0] Y_out;
+	output reg [width-1:0] Z_out;
 	
 	reg signed [31:0] LUT_Atan [0:31]; 
 	
@@ -63,14 +65,15 @@ module Single_Stage_Cordic( X_in, Y_in, Z_in,iteration_number, X_out, Y_out, Z_o
 
 		end
 		
+		always @(posedge clk) begin
 		
-		assign X_out = Z_in[31] ? X_in + Y_in *(2 >>> iteration_number) : X_in - Y_in *(2 >>> iteration_number);
-		assign Y_out = Z_in[31] ? Y_in - X_in *(2 >>> iteration_number) : Y_in + X_in *(2 >>> iteration_number);
-		assign Z_out = Z_in[31] ? Z_in - (LUT_Atan[iteration_number])   :  Z_in - (LUT_Atan[iteration_number]);
-		
+			 X_out = Z_in[31] ? X_in + Y_in *(2 >>> iteration_number) : X_in - Y_in *(2 >>> iteration_number);
+			 Y_out = Z_in[31] ? Y_in - X_in *(2 >>> iteration_number) : Y_in + X_in *(2 >>> iteration_number);
+			 Z_out = Z_in[31] ? Z_in + (LUT_Atan[iteration_number])   :  Z_in - (LUT_Atan[iteration_number]);
+			
 		
 	
-	
+		end
 	
 
 endmodule
