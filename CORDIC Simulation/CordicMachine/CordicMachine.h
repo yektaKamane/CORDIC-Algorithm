@@ -6,7 +6,7 @@ class CordicMachine {
 
     private:
 
-        int fractional_number = 30;
+        int fractional_number = 21;
         int iteration_number = 0;
 
         int Zsign{};
@@ -44,7 +44,7 @@ class CordicMachine {
 
         double getK() const;
 
-        double ConvertToRadian(double degree);
+        static double ConvertToRadian(double degree);
 
         double getOutputX() const;
         double getOutputY() const;

@@ -129,15 +129,13 @@ void   CordicMachine::Constant_K_Calculate() {
 
 void   CordicMachine::print_cordic_result() const {
 
-    std::cout << "###############################################" << std::endl;
-
-    std::cout << "CORDIC Machine Run: " << std::endl;
+    std::cout << "CORDIC Machine Run " << std::endl;
 
     std::cout.precision(10);
     std::cout << "\t\tK: " <<  getK()    << std::endl;
     std::cout << "\t\titerationNumber: " <<  getIterationNumber() << std::endl;
-    std::cout << "\t\toutput_X: " <<  getOutputX() << std::endl;
-    std::cout << "\t\toutput_Y: " <<  getOutputY() << std::endl;
+    std::cout << "\t\toutput_X: " <<  getOutputX() / getK() << std::endl;
+    std::cout << "\t\toutput_Y: " <<  getOutputY() / getK() << std::endl;
     std::cout << "\t\toutput_Z: " <<  getOutputZ() << std::endl;
 
     std::cout << "###############################################" << std::endl;

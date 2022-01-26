@@ -18,13 +18,23 @@ int main() {
 
     CordicMachine MyCordicMachine;
 
-    double X_input = stod(system.tokenize(processData[1],0,','));
-    double Y_input = stod(system.tokenize(processData[1],1,','));
-    double Z_input = stod(system.tokenize(processData[1],2,','));
+    double X_input;
+    double Y_input;
+    double Z_input;
+
+    for (int input = 1; input <=5 ; ++input) {
+
+        X_input = stod(system.tokenize(processData[input], 0, ','));
+        Y_input = stod(system.tokenize(processData[input], 1, ','));
+        Z_input = stod(system.tokenize(processData[input], 2, ','));
+
+        MyCordicMachine.cordic_calculate(X_input,Y_input,CordicMachine::ConvertToRadian(Z_input));
+        MyCordicMachine.print_cordic_result();
+    }
 
 
-    MyCordicMachine.cordic_calculate(X_input,Y_input,MyCordicMachine.ConvertToRadian(Z_input));
-    MyCordicMachine.print_cordic_result();
+//    MyCordicMachine.cordic_calculate(X_input,Y_input,MyCordicMachine.ConvertToRadian(Z_input));
+//    MyCordicMachine.print_cordic_result();
 
     return 0;
 }
