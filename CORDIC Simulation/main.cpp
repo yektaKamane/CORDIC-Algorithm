@@ -22,7 +22,7 @@ int main() {
     double Y_input;
     double Z_input;
 
-    for (int input = 1; input <=5 ; ++input) {
+    for (int input = 1; input <= 5 ; ++input) {
 
         X_input = stod(system.tokenize(processData[input], 0, ','));
         Y_input = stod(system.tokenize(processData[input], 1, ','));

@@ -6,7 +6,7 @@ class CordicMachine {
 
     private:
 
-        int fractional_number = 21;
+        int fractional_number = 29;
         int iteration_number = 0;
 
         int Zsign{};
