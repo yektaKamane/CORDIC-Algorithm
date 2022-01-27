@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC_Implementation/Cordic_Machine_TB_isim_beh.exe" -prj "D:/GitHub/FPGA-Project-CORDIC-Algorithm/CORDIC_Implementation/Cordic_Machine_TB_beh.prj" "work.Cordic_Machine_TB" "work.glbl" 
