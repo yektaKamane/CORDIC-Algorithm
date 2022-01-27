@@ -1,4 +1,0 @@
-verilog work "Single_Stage_Cordic.v"
-verilog work "Cordic_Machine.v"
-verilog work "Cordic_Machine_Test.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
